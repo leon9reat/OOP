@@ -41,4 +41,41 @@ object FormUtama: TFormUtama
     TabOrder = 2
     OnClick = Button3Click
   end
+  object Button4: TButton
+    Left = 258
+    Top = 83
+    Width = 75
+    Height = 25
+    Caption = 'Create'
+    TabOrder = 3
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 258
+    Top = 114
+    Width = 75
+    Height = 25
+    Caption = 'Lokal Info'
+    TabOrder = 4
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 258
+    Top = 145
+    Width = 75
+    Height = 25
+    Caption = 'Base Info'
+    TabOrder = 5
+    OnClick = Button6Click
+  end
+  object Button7: TButton
+    Tag = 1
+    Left = 258
+    Top = 176
+    Width = 75
+    Height = 25
+    Caption = 'Base Info'
+    TabOrder = 6
+    OnClick = Button6Click
+  end
 end

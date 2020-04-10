@@ -4,7 +4,8 @@ uses
   Vcl.Forms,
   UtamaForm in 'UtamaForm.pas' {FormUtama},
   BaseModel in 'Models\BaseModel.pas',
-  SatuModel in 'Models\SatuModel.pas';
+  SatuModel in 'Models\SatuModel.pas',
+  MasterDetailModel in 'Models\MasterDetailModel.pas';
 
 {$R *.res}
 
